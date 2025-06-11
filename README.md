@@ -1,9 +1,9 @@
-Script Bash: Resolución del Nivel 12 de OverTheWire Bandit
+# Script Bash: Resolución del Nivel 12 de OverTheWire Bandit
 
 Este script en Bash automatiza la resolución del nivel 12 del wargame OverTheWire Bandit, donde la contraseña está oculta en un archivo data.txt que contiene un volcado hexadecimal de un archivo comprimido repetidamente. El script descompone este proceso de forma automatizada y eficiente.
 
 
-🔧 Requisitos
+## 🔧 Requisitos
 
     7-Zip instalado en el sistema
 
@@ -11,7 +11,7 @@ Este script en Bash automatiza la resolución del nivel 12 del wargame OverTheWi
 
     
 
-📁 Instalación
+## 📁 Instalación
 
   Clona este repositorio en tu máquina local:
 
@@ -19,7 +19,7 @@ Este script en Bash automatiza la resolución del nivel 12 del wargame OverTheWi
 
 
 
-Asegúrate de que el script sea ejecutable:
+## Asegúrate de que el script sea ejecutable:
 
     chmod +x decompress.sh
 
@@ -29,9 +29,7 @@ Ejecuta el script:
 
     ./decompress.sh
 
-🧪 Funcionamiento
-
-El script realiza las siguientes acciones:
+## 🧪 Funcionamiento
 
   -Reversión del volcado hexadecimal: Utiliza xxd -r para revertir el volcado hexadecimal del archivo data.txt a su formato binario original.
 
